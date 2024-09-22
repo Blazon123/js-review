@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.review{
+margin-top: 50px;
+    display: inline-block;
+    /* justify-content: center;
+    align-content: center; */
+    border: 1px solid black;
+    margin-left: 350px;
+    background-color:#fff;
+}
+
+.title , h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.img-container{
+    margin-left: 200px;
+    margin-top: 10px;
+    position: relative;
+    /* text-align: center; */
+        /* justify-content: center; */
+}
+#author{
+    /* margin-left: 250px; */
+    margin-bottom: 20px;
+    color: aqua;
+    text-align: center;
+        justify-content: center;
+}
+#job{
+    /* margin-left: 250px; */
+    margin-bottom: 20px;
+    color: red;
+    text-align: center;
+        justify-content: center;
+}
+#info{
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    justify-content: center;
+}
+.button-container{
+    margin-left: 300px;
+    display: flex;
+    gap: 30px;
+    padding: 5px;
+
+}
+
+.random-btn{
+    margin-left: 290px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
